@@ -1,0 +1,25 @@
+{
+  "name": "AppleDailyLover",
+  "description": "跟《好蘋友》壹會員說掰掰 ",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "background", "declarativeContent", "tabs", "webRequest", "webRequestBlocking", "webNavigation", "*://*.appledaily.com/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_title": "大家都是好蘋友!",
+    "default_icon": {
+      "128": "images/apple-icon128.png"
+    }
+  },
+  "content_scripts" : [{
+    "matches" : ["*://*.appledaily.com/*"],
+    "run_at": "document_start",
+    "js" : ["jquery-3.4.1.slim.min.js", "handlePage.js"]
+  }],
+  "icons": {
+    "128": "images/apple-icon128.png"
+  }
+}

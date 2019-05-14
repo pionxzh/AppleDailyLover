@@ -1,0 +1,15 @@
+{
+  "name": "appledailylover",
+  "version": "1.0.0",
+  "description": "幫助你直接顯示蘋果日報新聞內文的 Chrome 擴充元件。",
+  "main": "background.js",
+  "scripts": {
+    "pack": "node crx.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pionxzh",
+  "license": "MIT",
+  "dependencies": {
+    "crx": "^5.0.0"
+  }
+}
