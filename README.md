@@ -1,8 +1,8 @@
 # AppleDaily Lover
 
-直接顯示蘋果日報新聞內文的 Chrome 擴充元件。
+幫助直接顯示蘋果日報新聞內文的 Chrome 擴充元件。
 
-適用於台灣版(tw.appledaily.com)與香港版(hk.appledaily.com)。
+適用台灣版([tw.appledaily.com](https://tw.appledaily.com/))與香港版([hk.appledaily.com](https://hk.appledaily.com/))。
 
 ( 話說台灣版的難度怎麼比香港難這麼多 ?_? )
 
